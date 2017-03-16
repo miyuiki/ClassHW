@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v){
             output.setText("");
             input.setText("");
-            Toast obj = Toast.makeText(MainActivity.this, "已清除input內容", Toast.LENGTH_LONG );
+            Toast obj = Toast.makeText(MainActivity.this, "已清除input & output內容", Toast.LENGTH_LONG );
             obj.show();
         }
     };
